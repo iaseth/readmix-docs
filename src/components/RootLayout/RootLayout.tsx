@@ -9,9 +9,9 @@ export default function RootLayout ({
 }) {
 	return (
 		<html lang="en">
-			<body className="flex">
+			<body className="flex h-screen overflow-hidden">
 				<Sidebar />
-				<article className="grow">
+				<article className="grow h-full overflow-y-scroll">
 					<header className="text-blue-600 px-4 py-8">
 						<h1 className="H5">Heading</h1>
 					</header>

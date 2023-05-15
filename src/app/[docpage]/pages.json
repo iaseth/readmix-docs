@@ -7,11 +7,20 @@
 
 		{"title": "Mixins"},
 		{"route": "basic-mixins", "title": "Basic Mixins"},
+		{"route": "std-mixins", "title": "Std"},
+		{"route": "github-mixins", "title": "GitHub"},
+		{"route": "npm-mixins", "title": "Npm"},
+		{"route": "git-mixins", "title": "Git"},
+		{"route": "meta-mixins", "title": "Meta"},
+		{"route": "license-mixins", "title": "License"},
 
 		{"title": "Filters"},
 		{"route": "basic-filters", "title": "Basic Filters"},
+		{"route": "text-filters", "title": "Text Filters"},
+		{"route": "number-filters", "title": "Number Filters"},
 
 		{"title": "Utils"},
+		{"route": "basic-utils", "title": "Basic Utils"},
 		{"route": "parse", "title": "Parse"},
 
 		{"title": "Exports"},

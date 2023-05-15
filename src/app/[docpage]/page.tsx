@@ -2,12 +2,12 @@ import pagesJson from './pages.json';
 
 
 
-export interface Route {
+export interface PageRoute {
 	route?: string,
 	title: string,
 }
 
-export const pages: Route[] = pagesJson.pages;
+export const pages: PageRoute[] = pagesJson.pages;
 export async function generateStaticParams () {
 	return pages.filter(page => page.route).map(page => ({docpage: page.route}));
 }
